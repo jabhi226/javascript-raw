@@ -43,7 +43,14 @@ const abhiObj = {
     job: 'Data Engineer',
     Experience: 0.4,
     salaary: 300000,
-    langKnown: ['JAVA', 'Python', 'JavaScript', 'SQL']
+    langKnown: ['JAVA', 'Python', 'JavaScript', 'SQL'],
+    vehicle: {
+        name: 'scody',
+        company: 'TATA',
+        model: 'Ambasetor',
+        gears: 5,
+        max_speed: 150.45
+    }
 }
 
 console.log(abhiObj);
